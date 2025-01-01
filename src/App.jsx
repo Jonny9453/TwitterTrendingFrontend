@@ -20,7 +20,7 @@ const handleChange=(e)=>{
 }
 const handleSubmit=(e)=>{
   e.preventDefault()
-  axios.post(`https://twitter-trending-stirr.vercel.app/run-script`,formInput, {
+  axios.post(`https://twittertrendingstirr.onrender.com/run-script`,formInput, {
     headers: {
         "Content-Type": "application/json",
     }})
